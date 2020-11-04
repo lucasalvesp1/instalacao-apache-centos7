@@ -7,7 +7,7 @@ O Apache está disponível nos repositórios de software padrão do CentOS, o qu
 
 Agindo como o usuário não-root, com privilégios sudo configurado nos pré-requisitos, atualize o índice de pacotes local httpd do Apache para refletir as alterações mais recentes do upstream:
 
-`sudo yum -y update httpd`
+`sudo yum update -y`
 
 Depois que os pacotes forem atualizados, instale o pacote Apache:
 
